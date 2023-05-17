@@ -153,7 +153,3 @@
   - [ ] Seção - Habilidade e Sobre
   - [ ] Seção - Meus projetos
   - [ ] Footer
-
-- Como ele vai ficar?
-
-![portfolio-nome](/assets/portfolio-nome.png)
