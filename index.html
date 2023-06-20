@@ -210,6 +210,80 @@
 
     <!--Section Modal/ Card Modal!-->
     <section class="row justify-content-lg-around p-4">
+      <!--MODAL1 -->
+      <div class="card m-5" style="width: 18rem">
+        <img
+          src="./assets/photos/img-pokedex.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Pokedex G4</h5>
+          <p class="card-text">
+            Projeto desenvolvido para treinar o conseito de CRUD e consumo da
+            pokeAPI.
+          </p>
+          <button
+            type="button"
+            class="m-5 btn bg-roxo text-white m-auto"
+            data-toggle="modal"
+            data-target="#modal1"
+          >
+            Veja mais
+          </button>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+
+      <!-- CARD Modal1 -->
+      <div
+        class="modal fade"
+        id="modal1"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Pokedex G4</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Projeto consiste em criar uma imagem de uma pokedex e apresentar
+                Gifs dos pokemons em movimento, sendo possivel, fazer busca pelo
+                pokemon desejado, escrevendo seu nome ou pelo seu numero.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn bg-roxo text-white"
+                data-dismiss="modal"
+              >
+                Fechar
+              </button>
+              <a
+                href="https://pokedex01-seven.vercel.app/"
+                target="_blank"
+                class="btn bg-roxo text-white"
+                >Ir</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--MODAL2 -->
       <div class="card m-5" style="width: 18rem">
         <img
           src="./assets/photos/img-Barbearia-Alura.png"
@@ -226,17 +300,17 @@
             type="button"
             class="m-5 btn bg-roxo text-white m-auto"
             data-toggle="modal"
-            data-target="#modal1"
+            data-target="#modal2"
           >
             Veja mais
           </button>
         </div>
       </div>
 
-      <!-- Modal-->
+      <!-- CARD Modal2 -->
       <div
         class="modal fade"
-        id="modal1"
+        id="modal2"
         tabindex="-1"
         role="dialog"
         aria-labelledby="exampleModalLongTitle"
@@ -285,7 +359,7 @@
         </div>
       </div>
 
-      <!--MODAL2-->
+      <!--MODAL3-->
       <div class="card m-5" style="width: 18rem">
         <img
           src="./assets/photos/img-Robotron.png"
@@ -302,17 +376,17 @@
             type="button"
             class="m-5 btn bg-roxo text-white m-auto"
             data-toggle="modal"
-            data-target="#modal2"
+            data-target="#modal3"
           >
             Veja mais
           </button>
         </div>
       </div>
 
-      <!-- CARDModa2 -->
+      <!-- CARDModa3 -->
       <div
         class="modal fade"
-        id="modal2"
+        id="modal3"
         tabindex="-1"
         role="dialog"
         aria-labelledby="exampleModalLongTitle"
@@ -360,35 +434,35 @@
         </div>
       </div>
 
-      <!--MODAL3 -->
+      <!--MODAL4-->
       <div class="card m-5" style="width: 18rem">
         <img
-          src="./assets/photos/img-pokedex.png"
+          src="./assets/photos/Creche Batatinha.png"
           class="card-img-top"
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Pokedex G4</h5>
-          <p class="card-text">
-            Projeto desenvolvido para treinar o conseito de CRUD e consumo da
-            pokeAPI.
+          <h5 class="card-title color_geral">Creche Batatinha</h5>
+          <p class="card-text color_geral">
+            Desenvolvido um website de uma creche para gatos, onde fosse
+            possível fazer o CRUD e imprimir relatório em PDF do Status do Gato
+            selecionado.
           </p>
           <button
             type="button"
             class="m-5 btn bg-roxo text-white m-auto"
             data-toggle="modal"
-            data-target="#modal3"
+            data-target="#modal4"
           >
             Veja mais
           </button>
         </div>
       </div>
-      <!-- Button trigger modal -->
 
-      <!-- CARD Modal3 -->
+      <!-- CARD Modal4 -->
       <div
         class="modal fade"
-        id="modal3"
+        id="modal4"
         tabindex="-1"
         role="dialog"
         aria-labelledby="exampleModalLongTitle"
@@ -397,7 +471,9 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Pokedex G4</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Desafio Creche Batatinha
+              </h5>
               <button
                 type="button"
                 class="close"
@@ -409,11 +485,17 @@
             </div>
             <div class="modal-body">
               <p>
-                Projeto consiste em criar uma imagem de uma pokedex e apresentar
-                Gifs dos pokemons em movimento, sendo possivel, fazer busca pelo
-                pokemon desejado, escrevendo seu nome ou pelo seu numero.
+                Criar um sistema que permitisse fazer cadastros de gatos e seus
+                respectivos donos, e que pudessemos além de editar e apagar seus
+                dados, imprimir um PDF com seu comportamento durante a estadia
+                na creche, e apresentar o relatório ao seu dono.<br>Tecnologia Utilizada:
+                <br>- JavaScript.<br>
+                - CSS.<br> 
+                - HTML.<br> 
+                - Node.js.<br> 
+                - Json-Server.
               </p>
-            </div>
+            </div>  
             <div class="modal-footer">
               <button
                 type="button"
@@ -423,7 +505,7 @@
                 Fechar
               </button>
               <a
-                href="https://pokedex01-seven.vercel.app/"
+                href="https://creche-batatinha-nine.vercel.app/"
                 target="_blank"
                 class="btn bg-roxo text-white"
                 >Ir</a
